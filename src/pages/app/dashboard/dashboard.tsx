@@ -19,7 +19,7 @@ export function Dashboard() {
           <DayOrdersAmountCard />
           <MonthCancelledOrdersAmountCard />
         </div>
-        <div className="gap4 grid grid-cols-9 ">
+        <div className="gap4 grid grid-cols-9 gap-4 ">
           <RevenueChart />
           <PopularProductsChart />
         </div>
